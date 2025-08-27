@@ -11,8 +11,6 @@ Zama Swap 是一个基于 FHEVM 的保密 AMM 示例项目，包含智能合约�
 ZamaSwap 是一个基于 FHEVM 的保密 AMM 示例，支持在不暴露用户明文余额与交易数量的前提下完成代币交换与流动性管理。
 项目由 Solidity 智能合约与 React/Vite 前端组成：前端通过 Zama FHE relayer 完成加解密并用 ethers 交互，合约结合 @fhevm/solidity 实现保密代币、撮合与精细化权限控制。
 
-- 项目所选赛道
-  - **xFi**: 金融类应用/协议赛道，交易协议, DeFi, RWA, ReFi 等等任何可以促进金融创新，实现金融普惠的项目都可以报名此赛道。
 
 - 核心功能
 - 保密 AMM 交换：在不泄露明文余额与交易数量的前提下完成定价与交换。
@@ -20,14 +18,3 @@ ZamaSwap 是一个基于 FHEVM 的保密 AMM 示例，支持在不暴露用户�
 - 保密流动性管理：支持加密 LP 供应与余额，添加/移除流动性全程保密。
 - 细粒度权限与访问控制：`setOperator`、`authorizeSelf` 与 `FHE.allow/allowTransient` 组合，确保最小权限访问。
 - 一体化前端体验：内置 FHE 实例初始化、加密/解密工具与交互 UI，面向普通用户可直接使用。
-
-- 代码仓库地址: https://github.com/big-dudu-mosty/ZamaSwap/tree/main/Hackathon/Zama_Swap
-
-- 团队成员 List（名字、Github 地址）
-嘟嘟 https://github.com/big-dudu-mosty
-yoona https://github.com/yoona333
-
-- 历史获奖说明：无
-
-- Deck (PPT) 地址：https://www.canva.com/design/DAGwarjJT3Q/FSBj7bizCAEd0jFYXOatTQ/edit?
-- 项目演示（录屏 或 可页面的在线访问地址均可）：https://drive.google.com/file/d/1BxEff1HMyqsfpWStnQCgi0f7PEYIqeEJ/view?usp=sharing
